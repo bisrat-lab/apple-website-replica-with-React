@@ -6,7 +6,7 @@ class FirstContaint extends Component {
     render() { 
         return ( 
             <section className="first-hightlight-wrapper">
-				<Structure  alert="New" title="iPad Pro"
+				<Structure  alert="New" titleColor="black" title="iPad Pro"
 				colorClass="black" description="Twice the speed. Twice the storage."
 				/>
 		        <div className="ipod-caption row">

@@ -6,7 +6,7 @@ class SecondContaints extends Component {
     render() { 
         return ( 
             <section className="second-hightlight-wrapper">
-				<Structure  alert="New" title="MacBook Air" priceColor ="grey" price = "From $999."
+				<Structure  alert="New" titleColor="black" title="MacBook Air" priceColor ="grey" price = "From $999."
 				colorClass="black" description="Twice the speed. Twice the storage."
 				/>
 				
