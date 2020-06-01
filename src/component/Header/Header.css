@@ -1,0 +1,16 @@
+.nav-wrapper {
+    background: rgba(0,0,0,0.8);
+    font-size: 0.85em;
+    font-weight: 200;
+  }
+  .nav-wrapper ul li a {
+      color: #fff;
+  }
+  .navbar-toggler {
+      color: #fff;
+  }
+  .nav-item {
+      text-align: left !important;
+      padding: 4px 0;
+      border-bottom: 1px solid #4b4b4b;
+  }
