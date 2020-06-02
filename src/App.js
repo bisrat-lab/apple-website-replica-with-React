@@ -15,13 +15,13 @@ class App extends Component {
     return (
       <div>
         <Navbar/>
-        <FirstContaint/>
-        <SecondContaints/>
-        <ThirdContaint/>
-        <ForthContaint/>
-        <FiftyComponent/>
-        <SixthContaint/>
-        <Footer/>
+          <FirstContaint/>
+            <SecondContaints/>
+              <ThirdContaint/>
+                <ForthContaint/>
+                  <FiftyComponent/>
+                    <SixthContaint/>
+                      <Footer/>
       </div>
       
     );

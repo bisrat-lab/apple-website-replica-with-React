@@ -12,7 +12,7 @@ class Navbar extends Component {
                 <div className="container">
                     <nav className="navbar navbar-toggleable-sm navbar-expand-md">
                         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span className="navbar-toggler-icon"></span>
+                            ☰
                         </button>
                         <a className="navbar-brand mx-auto" href="#"><img src={logo}/></a>
 
@@ -26,9 +26,11 @@ class Navbar extends Component {
                                 <Navlink linkUrl ="#"linkName="TV"/>
                                 <Navlink linkUrl ="#"linkName="Music"/>
                                 <Navlink linkUrl ="#"linkName="Support"/>
+                                <Navlink linkUrl ="#" Image = {<img src={search}/>}/>
+                                <Navlink linkUrl ="#" Image = {<img src={cart}/>}/>
                                 
-                                <li className="nav-item" ><a className="nav-link js-scroll-trigger" href="/search/"><img src={search}/></a></li>
-                                <li className="nav-item"><a  className="nav-link js-scroll-trigger" href="/cart/"><img src={cart}/></a></li>
+                
+                             
                             </ul>
                         </div>
                     </nav>

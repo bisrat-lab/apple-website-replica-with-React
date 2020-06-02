@@ -14,5 +14,4 @@ class SecondContaints extends Component {
          );
     }
 }
- 
 export default SecondContaints;

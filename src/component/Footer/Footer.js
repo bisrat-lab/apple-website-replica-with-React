@@ -110,7 +110,7 @@ class Footer extends Component {
                     More ways to shop: <a href="#">Find an Apple Store</a> or <a href="#">other retailer</a> near you. Or call 1-800-MY-APPLE.
                 </div>
                 <div className="copyright-wrapper row">
-                    <div class="copyright col-sm-12 order-2 col-md-8 order-md-1 col-lg-4 order-lg-1">
+                    <div className="copyright col-sm-12 order-2 col-md-8 order-md-1 col-lg-4 order-lg-1">
                         Copyright &copy; 2020 Apple Inc. All rights reserved.
                     </div>
                     <div className="footer-links-terms  col-sm-12 order-3 col-lg-6 order-lg-2">
@@ -123,7 +123,7 @@ class Footer extends Component {
                         </ul>
                     </div>
                     <div className="footer-country  col-sm-12 order-1 col-md-4 order-md-2 text-md-right col-lg-2 order-lg-3">
-                        <div className="flag-wrapper"><img src={FlagIcon}/></div> <div class="footer-country-name">United States</div> 
+                        <div className="flag-wrapper"><img src={FlagIcon}/></div> <div className="footer-country-name">United States</div> 
                     </div>
                 </div>
             </div>
