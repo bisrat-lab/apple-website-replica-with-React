@@ -1,5 +1,6 @@
 import React, {Component } from 'react';
 import Structure from "../Containts/Structure"
+import './SecContaints.css';
 
 class SecondContaints extends Component {
     

@@ -7,7 +7,7 @@ class FirstContaint extends Component {
         return ( 
             <section className="first-hightlight-wrapper">
 				<Structure  alert="New" titleColor="black" title="iPad Pro"
-				colorClass="black" description="Twice the speed. Twice the storage."
+				colorClass="black"
 				/>
 		        <div className="ipod-caption row">
 					<div className="col-sm-12 col-md-6 text-md-right">iPad Pro available starting 3.25</div>
@@ -19,4 +19,5 @@ class FirstContaint extends Component {
 }
  
 export default FirstContaint;
+
 

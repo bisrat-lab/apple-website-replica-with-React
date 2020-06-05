@@ -1,0 +1,10 @@
+.third-hightlight-wrapper {
+	background-image: url("../../../images/home/iphone11-pro-bg.jpg");
+	height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;
+}

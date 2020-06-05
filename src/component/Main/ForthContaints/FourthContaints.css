@@ -1,0 +1,24 @@
+.fourth-heghlight-wrapper .left-side-wrapper .left-side-container{
+	background-image:  url("../../../images/home/iphone11-colored.jpg"); 
+	background-color: #000;
+	padding-top: 35px;
+	margin: 0 0 10px 0;
+	background-size: cover;		
+}
+.fourth-heghlight-wrapper .right-side-wrapper .right-side-container{
+	background-image:  url("../../../images/home/apple-blue-logo.jpg"); 
+	background-color: #165ca9;
+	background-position: bottom;
+	padding-top: 35px;
+	margin: 0 0 10px 0;
+	background-size: auto;	
+}
+
+@media (min-width: 768px) {
+.fourth-heghlight-wrapper .left-side-wrapper .left-side-container {
+    margin: 10px 5px 5px 10px;
+}
+.fourth-heghlight-wrapper .right-side-wrapper .right-side-container {
+    margin: 10px 10px 5px 5px;
+}
+}		

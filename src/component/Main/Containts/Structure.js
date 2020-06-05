@@ -3,27 +3,28 @@ import React, {Component } from 'react';
 class Structure extends Component {
   
     render() { 
+        const {alert, title ,description,price} = this.props;
         return (  
             <div className="container">
             <div className="new-alert">
-				{this.props.alert}
+				{alert}
 			</div>
 			<div className={`title-wraper bold ${this.props.titleColor}`}>
-				{this.props.title}
+				{title}
 			</div> 
 
 			<div className={`description-wrapper ${this.props.colorClass}`}>
-				{this.props.description}
+				{description}
 			</div>
 
 			<div className={`price-wrapper ${this.props.priceColor}`}>
-				{this.props.price}
+				{price}
 			</div>
 
 			<div className="links-wrapper">
 				<ul>
-					<li><a href="">Learn more</a></li>
-					<li><a href="">Buy</a></li>
+					<li><a href="#top">Learn more </a></li>
+					<li><a href="#top">Buy</a></li>
 				</ul> 
 			</div>
 		</div>			

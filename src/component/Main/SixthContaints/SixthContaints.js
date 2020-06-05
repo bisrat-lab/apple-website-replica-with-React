@@ -1,4 +1,5 @@
 import React, {Component } from 'react';
+import './SixthContaints.css'
 import ArcadeIcon from "../../../images/icons/arcade.png";
 
 class SixthContaint extends Component {

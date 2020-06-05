@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './FifthContaint.css'
 import AppleTvLogo from "../../../images/icons/apple-tv-logo.png"
 import WatchSeries5Logo from "../../../images/icons/watch-series5-logo.png"
 import banker from "../../../images//home/banker.png"

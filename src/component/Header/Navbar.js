@@ -14,20 +14,20 @@ class Navbar extends Component {
                         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target=".navbar-collapse">
                             ☰
                         </button>
-                        <a className="navbar-brand mx-auto" href="#"><img src={logo}/></a>
+                        <a className="navbar-brand mx-auto" href="#top"><img src={logo}/></a>
 
                         <div className="navbar-collapse collapse">
                             <ul className="navbar-nav nav-justified w-100 nav-fill">
 
-                                <Navlink linkUrl ="#"linkName="Mac"/>
-                                <Navlink linkUrl ="#"linkName="iPhone"/>
-                                <Navlink linkUrl ="#"linkName="iPad"/>
-                                <Navlink linkUrl ="#"linkName="Watch"/>
-                                <Navlink linkUrl ="#"linkName="TV"/>
-                                <Navlink linkUrl ="#"linkName="Music"/>
-                                <Navlink linkUrl ="#"linkName="Support"/>
-                                <Navlink linkUrl ="#" Image = {<img src={search}/>}/>
-                                <Navlink linkUrl ="#" Image = {<img src={cart}/>}/>
+                                <Navlink linkUrl ="#top"linkName="Mac"/>
+                                <Navlink linkUrl ="#top"linkName="iPhone"/>
+                                <Navlink linkUrl ="#top"linkName="iPad"/>
+                                <Navlink linkUrl ="#top"linkName="Watch"/>
+                                <Navlink linkUrl ="#top"linkName="TV"/>
+                                <Navlink linkUrl ="#top"linkName="Music"/>
+                                <Navlink linkUrl ="#top"linkName="Support"/>
+                                <Navlink linkUrl ="#top" Image = {<img src={search}/>}/>
+                                <Navlink linkUrl ="#top" Image = {<img src={cart}/>}/>
                                 
                 
                              

@@ -1,0 +1,28 @@
+.fifth-heghlight-wrapper .left-side-wrapper .left-side-container{
+	background-image:  url("../../../images/home/actors.jpg"); 
+	background-color: #000;
+	padding-top: 35px;
+	margin: 0 0 10px 0;
+	background-size: cover;		
+}
+.fifth-heghlight-wrapper .right-side-wrapper .right-side-container{
+	background-image:  url("../../../images/home/watch.jpg"); 
+	background-color: #fbfbfd;
+	background-position: bottom;
+	padding-top: 35px;
+	margin: 0 0 10px 0;
+	background-size: auto;	
+}
+.fifth-heghlight-wrapper .description-wraper {
+	max-width: 450px;
+	margin: 7px auto;
+}
+
+@media (min-width: 768px) {
+.fifth-heghlight-wrapper .left-side-wrapper .left-side-container {
+    margin: 5px 5px 5px 10px;
+}
+.fifth-heghlight-wrapper .right-side-wrapper .right-side-container {
+    margin: 5px 10px 5px 5px;
+}
+}
