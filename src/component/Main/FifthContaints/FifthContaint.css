@@ -1,5 +1,5 @@
 .fifth-heghlight-wrapper .left-side-wrapper .left-side-container{
-	background-image:  url("../../../images/home/actors.jpg"); 
+	background-image:  url("../../../images/home/central_park_sm.jpg"); 
 	background-color: #000;
 	padding-top: 35px;
 	margin: 0 0 10px 0;
@@ -20,6 +20,7 @@
 
 @media (min-width: 768px) {
 .fifth-heghlight-wrapper .left-side-wrapper .left-side-container {
+	background-image: url("../../../images/home/central_park_lg.jpg");
     margin: 5px 5px 5px 10px;
 }
 .fifth-heghlight-wrapper .right-side-wrapper .right-side-container {

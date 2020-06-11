@@ -1,6 +1,7 @@
 import React, {Component } from 'react';
 import './SixthContaints.css'
 import ArcadeIcon from "../../../images/icons/arcade.png";
+import StructureTwo from '../Containts/StructureTwo'
 
 class SixthContaint extends Component {
     
@@ -27,22 +28,10 @@ class SixthContaint extends Component {
                                 </div>						
                             </div>
                         </div>
-                        <div className="right-side-wrapper col-sm-12 col-md-6">
-                            <div className="right-side-container">
-                                <div className="title-wraper">
-                                    Apple Card Monthly Installments 
-                                </div> 
-                                <div className="description-wraper">
-                                    Pay for your next iPhone over time, interest-free with Apple Card.
-                                </div>
-                                <div className="links-wrapper">
-                                    <ul>
-                                        <li><a href="">Learn more</a></li>
-                                        <li><a href="">Apply now</a></li>
-                                    </ul> 
-                                </div>
-                            </div>
-                        </div>					
+                        <StructureTwo wrapperClass="right-side-wrapper"
+                            innerClassName="right-side-container" 
+                            title="Apple Card Monthly Installments"
+                            description="The simplicity of Apple In a credit card."link="Apply now"><a href="">Learn more</a></StructureTwo>
                     </div>
                 </div> 
             </section>

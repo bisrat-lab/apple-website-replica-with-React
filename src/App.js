@@ -1,28 +1,38 @@
 import React, { Component } from 'react';
 import './App.css';
 
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
 import Navbar from "./component/Header/Navbar"
-import FirstContaint from './component/Main/FirstContaints/FirstContaint';
-import SecondContaints from "./component/Main/SecondContaints/SecContaints";
-import ThirdContaint from "./component/Main/ThirdContaints/ThirdContaint";
-import ForthContaint from "./component/Main/ForthContaints/FourthContaints";
-import FiftyComponent from "./component/Main/FifthContaints/FifthContaint";
-import SixthContaint from "./component/Main/SixthContaints/SixthContaints";
+import Main  from "./component/Main/main"
 import Footer from "./component/Footer/Footer"
+
+import IPhone from "./component/Pages/IPhone/IPhone"
+import Error from "./component/Pages/Error/Error"
+import Mac from './component/Pages/Mac/Mac';
+import Productpage from './component/Pages/Productpage/Productpage'
 
 class App extends Component {
   render(){
     return (
-      <div>
-        <Navbar/>
-          <FirstContaint/>
-            <SecondContaints/>
-              <ThirdContaint/>
-                <ForthContaint/>
-                  <FiftyComponent/>
-                    <SixthContaint/>
-                      <Footer/>
-      </div>
+      <Router>
+        <div>
+          <Navbar/>
+            <Switch>
+               <Route path="/" exact component={Main}/>
+               <Route path="/iphone" exact component={IPhone}/>
+               <Route path="/mac" exact component={Mac}/>
+               <Route path="/iphone/:pid" exact component={Productpage}/>
+               <Route path="/" component={Error}/>
+            </Switch>          
+          <Footer/>
+        </div>
+      </Router>
       
     );
   }

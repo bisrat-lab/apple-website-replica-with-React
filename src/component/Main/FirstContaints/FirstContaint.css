@@ -18,6 +18,7 @@
     letter-spacing: -.01em;		
     padding-top: 310px;
 }
+
 /* Meadia Query */
 @media (min-width: 768px) {
     .first-hightlight-wrapper {

@@ -1,0 +1,34 @@
+{
+    "products":[
+        {
+          "Id": "iphonese",
+          "img": "https://www.apple.com/v/iphone/home/aj/images/overview/hero/hero_iphone_se__barrz3dlvxea_small_2x.jpg",
+          "Url": "https://www.apple.com/shop/buy-iphone/iphone-11",
+          "Title": "iPhone SE",
+          "Brief": "Lots to love. Less to spend.",
+          "StartPrice": "$399",
+          "PriceRange": "From $9.54/mo. or $229 with trade-in.*",
+          "Description": "iPhone SE packs our most powerful chip into our most popular size at our most affordable price. It’s just what you’ve been waiting for."
+        },
+        {
+          "Id": "iphone11",
+          "img": "https://www.apple.com/v/iphone/home/aj/images/overview/hero/hero_iphone_11__bsnxu2gpf98i_small_2x.jpg",
+          "Url": "https://www.apple.com/shop/buy-iphone/iphone-11",
+          "Title": "iPhone 11",
+          "Brief": "Lots to love. Less to spend.",
+          "StartPrice": "$449",
+          "PriceRange": "From $18.70/mo. or $449 with trade-in.*",
+          "Description": "You can either pay for your new iPhone in full or pay monthly with carrier financing, iPhone Payments, the iPhone Upgrade Program, and now Apple Card Monthly Installments. Your carrier service plan will be charged separately. Just choose the option that works for you."
+        },
+        {
+          "Id": "iphone11pro",
+          "img": "https://www.apple.com/v/iphone/home/aj/images/overview/hero/hero_iphone_11_pro__d2lf9zrtcv8m_small_2x.jpg",
+          "Url": "https://www.apple.com/shop/buy-iphone/iphone-11-pro",
+          "Title": "iPhone 11 Pro",
+          "Brief": "Pro cameras. Pro display. Pro performance.",
+          "StartPrice": "$679",
+          "PriceRange": "From $28.29/mo. or $679 with trade-in.*",
+          "Description": "A transformative triple‑camera system that adds tons of capability without complexity. An unprecedented leap in battery life. And a mind‑blowing chip that doubles down on machine learning and pushes the boundaries of what a smartphone can do. Welcome to the first iPhone powerful enough to be called Pro."
+        }
+      ]
+  }

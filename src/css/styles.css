@@ -1,10 +1,18 @@
 /* General Styling*/
-body {
-	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
 }
+body {
+	font-family: 'SF Pro Display',sans-serif;;
+}
+
+
+
 a {
 	color: #06c; 
-}
+} 
 img {
 	max-width: 100%;
 }
@@ -65,10 +73,10 @@ img {
 }
 .product-title {
 	font-weight: 400;
-	font-size: 17px;
+	font-size: 37px;
 }
 .brief-description {
-	font-size: 2em;
+	font-size: 3em;
 }
 .sixth-heghlight-wrapper .description-wraper {
 	max-width: 250px;
@@ -76,9 +84,13 @@ img {
 }
 .description-wraper.white{
 	color: white;
+
+}
+.description-wraper{
+	font-size: 16px;
 }
 .links-wrapper {
-	padding: 15px 0;
+	padding: 10px 0;
 }
 .links-wrapper ul li {
 	display: inline-block;
@@ -87,10 +99,11 @@ img {
 .links-wrapper ul li a {
 	color: #06c;
 	text-decoration: none;
-	font-size: 21px;
+	font-size: 17px;
 }
 .links-wrapper ul li a:hover {
-	color: #000;
+	text-decoration: underline;
+	
 }
 .links-wrapper ul li a:after {
   font-family: "FontAwesome";
@@ -105,9 +118,9 @@ img {
   letter-spacing: -0.04em;
 }
 .title-wraper.bold {
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 1.15em;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 1.12em;
   letter-spacing: -0.04em;
 }
 .right-side-wrapper .title-wraper {
@@ -117,6 +130,9 @@ img {
 .description-wrapper {
 	font-size: 26px;
 	padding: 10px 0;
+}
+.price-wrapper{
+	font-size: 17px;
 }
 
 .watch-more-wrapper a {
@@ -131,7 +147,7 @@ img {
   padding-left: 15px;
 }
 .tvshow-logo-wraper {
-	padding: 340px 0 0px;
+	padding: 10px 0 0px;
 }
 
 .links-wrapper.white li a {
@@ -155,14 +171,17 @@ img {
 	max-width: 90%;
 	margin: 0 auto;
 }
+/* .navbar-toggleable-sm{
+	height: 60px;
+} */
 
 @media (min-width: 768px) {
 	/*Nav bar*/
-	.nav-item {
+	/* .nav-item {
 		text-align: center !important;
-		padding: 0;
+		padding: 10px;
 		border-bottom: 0px;
-	}	
+	}	 */
 	/*Footer styling*/
 	.my-apple-wrapper {
 		border-bottom: 1px solid #d2d2d7
@@ -196,3 +215,30 @@ img {
 		margin-top: 10px;
 	}	
 }
+
+.internal-page-wrapper {
+	margin-top: 44px;
+	padding: 20px 0;	
+}
+
+/* Product page */
+.product-title {
+	font-size: 24px;
+	font-weight: 600;	
+  }
+  .product-brief {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.2em;	
+  }
+  .starting-price {
+	  font-size: 20px;
+	  font-weight: 600;
+  }
+  .product-holder {
+	  margin: 100px 0;
+  }
+  .product-details {
+	  padding: 50px 0;
+  }
+  

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './FifthContaint.css'
 import AppleTvLogo from "../../../images/icons/apple-tv-logo.png"
 import WatchSeries5Logo from "../../../images/icons/watch-series5-logo.png"
-import banker from "../../../images//home/banker.png"
+import tvtitle from "../../../images/icons/tv-title-large.png"
 
 class FiftyComponent extends Component {
     
@@ -20,11 +20,11 @@ class FiftyComponent extends Component {
                                 </div>
 
                                 <div className="tvshow-logo-wraper">
-                                    <img src={banker}/>
+                                    <img src={tvtitle}/>
                                 </div>
 
                                 <div className="watch-more-wrapper">
-                                    <a href="#">Watch now on the Apple TV App</a>
+                                    <a href="#">Watch now</a>
                                 </div>
                             </div>
                         </div>

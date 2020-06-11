@@ -7,7 +7,7 @@
 	background-size: cover;		
 }
 .sixth-heghlight-wrapper .right-side-wrapper .right-side-container{
-	background-image:  url("../../../images/home/apple-card-monthly.jpg"); 
+	background-image:  url("../../../images/home/Card_small.jpg"); 
 	background-color: #fbfbfd;
 	background-position: bottom;
 	padding-top: 35px;
@@ -17,9 +17,11 @@
 
 @media (min-width: 768px) {
 .sixth-heghlight-wrapper .left-side-wrapper .left-side-container {
+	background-image: url("../../../images/home/Arcon-lg.jpg");
     margin: 5px 5px 10px 10px;
 }
 .sixth-heghlight-wrapper .right-side-wrapper .right-side-container {
+	background-image: url("../../../images/home/Card_large.jpg");
     margin: 5px 10px 10px 5px;
 }	
 .sixth-heghlight-wrapper .links-wrapper {
