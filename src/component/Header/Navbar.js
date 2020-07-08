@@ -54,7 +54,7 @@ class Navbar extends Component {
                         <a href="iphone" className="nav-link">iPhone</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">Watch</a>
+                        <a href="watch" className="nav-link">Watch</a>
                     </li>
                     <li className="nav-item">
                         <a href="#" className="nav-link">TV</a>

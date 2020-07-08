@@ -1,0 +1,25 @@
+{
+    "products":[
+        {
+          "Id": "seriesFive",
+          "img": "https://www.apple.com/v/watch/home/ab/images/overview/series-5/tile_series-5__ek1g2re74gae_medium.jpg",
+          "Url": "https://www.apple.com/apple-watch-series-5/",
+          "Title": "https://www.apple.com/v/watch/home/ab/images/overview/series-5/logo_series-5__7ppkf9xo6syq_medium.png",
+          "Brief": "Lots to love. Less to spend.",
+          "StartPrice": "Starting at $399",
+         
+          "Description": "The most advanced Apple Watch yet, featuring the Always-On Retina display, the ECG app, international emergency calling, fall detection, and a built‑in compass"
+        },
+        {
+          "Id": "seriesThree",
+          "img": "https://www.apple.com/v/watch/home/ab/images/overview/series-3/tile_series-3__sos8zgyskd2y_medium.jpg",
+          "Url": "https://www.apple.com/apple-watch-series-3/",
+          "Title": "https://www.apple.com/v/watch/home/ab/images/overview/series-3/logo_series-3__cn9ur1a0uzau_medium.png",
+          "Brief": "Lots to love. Less to spend.",
+          "StartPrice": "Starting at $199",
+          "PriceRange": "From $18.70/mo. or $449 with trade-in.*",
+          "Description": "All the core fitness, heart‑monitoring, and connectivity features that make Apple Watch the ultimate device for a healthy life. At an incredible price."
+        }
+        
+      ]
+  }

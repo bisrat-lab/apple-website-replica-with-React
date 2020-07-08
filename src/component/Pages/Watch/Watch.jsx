@@ -1,15 +1,15 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 
-class Mac extends Component{
-	constructor(){
+ class Watch extends Component {
+    constructor(){
         super();
         this.state = {
             products: []
         }
     }
     componentDidMount(){
-        fetch("./mac.json")
+        fetch("./watch.json")
             .then(res => res.json())
             .then((x) => {
 
@@ -20,7 +20,8 @@ class Mac extends Component{
                 })
             })
     }
-     render(){
+     
+    render() {
         console.log(this.state.products)
         let order = 1;
         return (
@@ -30,7 +31,8 @@ class Mac extends Component{
 						<div className="row justify-content-center text-center">
 							<div className="col-12">
 								<div className="title-wraper large">
-								Which Mac notebook is right for you?
+                                The #1 smartwatch<br/>
+                                in the world. Times two. 
 								</div>
 								{/* <div className="brief-description">
 									The best for the brightest
@@ -55,20 +57,18 @@ class Mac extends Component{
 								let productDiv =
 								<div key={id} className="row justify-content-center text-center product-holder h-100">
 									<div className={`col-sm-12 col-md-6 my-auto order-${order1}`}>
-										<div className ="new-alert">
-											{product.Alert}
-										</div>
-									<div className="monthly-price inch">
-												{product.PriceRange}
-											</div>
 										<div className="product-title">
-                                        { product.Title}
+                                        <img src={ product.Title}/>
 										</div>
 										<div className="description-wraper">
-											{product.Brief}
+											{product.Description}
 										</div>
-										
-										
+										<div className="price-wrapper">
+											{`Starting at ${product.StartPrice}`}
+										</div>
+										<div className="monthly-price">
+											{product.PriceRange}
+										</div>
 										<div className="links-wrapper">
 											<ul>
 												<li>
@@ -95,6 +95,6 @@ class Mac extends Component{
 			</div>
         )
     }
-			
 }
-export default Mac;
+
+export default Watch

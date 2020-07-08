@@ -241,4 +241,9 @@ img {
   .product-details {
 	  padding: 50px 0;
   }
-  
+ .large{
+	font-size: 56px;
+  }
+  .inch{
+	  font-size: 17px;
+  }

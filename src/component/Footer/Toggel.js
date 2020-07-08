@@ -18,5 +18,6 @@ $(window).on('resize', function(event){
 $(document).on("click", ".someClass h3", function(){
     $(this).next('ul').slideToggle();
     $(this).toggleClass("expanded");
+    
 });
 
