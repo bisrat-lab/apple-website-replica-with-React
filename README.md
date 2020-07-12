@@ -29,5 +29,6 @@ Project is created with:
 ## Setup
 To run this project, npm start 
 
-## Copyright © 2020 
+## Copyright
+**© 2020 
 **By Bisrat Tegegne**
