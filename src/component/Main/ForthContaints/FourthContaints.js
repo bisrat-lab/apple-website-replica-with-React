@@ -10,7 +10,7 @@ class ForthContaint extends Component {
                     <div className="row">
                         <StructureTwo wrapperClass="left-side-wrapper" 
                             innerClassName="left-side-container"
-                            title= "iPhone 11" description="Just the right amount of everything."
+                            title= "PuzzlR" description="Just the right amount of everything."
                             price="From $18.70/mo. or $499 with trade‑in."
                              link="Apply now"><a href="">Learn more</a></StructureTwo>
                         <StructureTwo wrapperClass="right-side-wrapper"
