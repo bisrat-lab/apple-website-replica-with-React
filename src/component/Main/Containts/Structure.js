@@ -2,7 +2,7 @@ import React, {Component } from 'react';
 class Structure extends Component {
   
     render() { 
-        const {alert, title ,description,price,titleColor,colorClass,priceColor} = this.props;
+        const {alert, title ,description,price,titleColor,colorClass,priceColor, link1,link2} = this.props;
         return (  
             <div className="container">
             <div className="new-alert">
@@ -22,8 +22,12 @@ class Structure extends Component {
 
 			<div className="links-wrapper">
 				<ul>
-					<li><a href="#top">Learn more </a></li>
-					<li><a href="#top">Buy</a></li>
+					{link1 &&
+						<li><a href="#top">{link1}</a></li>
+					}
+					{link2 &&
+						<li><a href="#top">{link2}</a></li>
+					}
 				</ul> 
 			</div>
 		</div>			

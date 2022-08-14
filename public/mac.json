@@ -8,9 +8,6 @@
           "Brief": "Power. Moves..",
           "PriceRange": "13-inch model",
           "Alert": "New"
-         
-         
-          
         },
         {
           "Id": "MacBookPro16",
@@ -19,8 +16,6 @@
           "Title": "MacBook Pro",
           "Brief": "The best for the brightest.",
           "PriceRange": "16-inch model"
-        
-          
         },
         {
             "Id": "MacBookAir",
@@ -28,9 +23,7 @@
             "Url": "https://www.apple.com/macbook-air/",
             "Title": "MacBook Air",
             "Brief": "Light. Speed.",
-          
             "Alert": "New"
-            
           }
         
       ]
