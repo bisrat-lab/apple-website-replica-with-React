@@ -1,3 +1,5 @@
 {
-    "appService.showBuildDuringDeployPrompt": false
+    "appService.showBuildDuringDeployPrompt": false,
+    "appService.defaultWebAppToDeploy": "/subscriptions/061ede2c-6c43-4dfa-b69c-76e86ce243a4/microsoft.web/sites/subscriptions/061ede2c-6c43-4dfa-b69c-76e86ce243a4/resourceGroups/Vandy.io/providers/Microsoft.Web/sites/Vandy",
+    "appService.deploySubpath": "."
 }
