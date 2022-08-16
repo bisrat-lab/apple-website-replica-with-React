@@ -8,8 +8,8 @@ import WatchSeries5Logo from "../../images/icons/watch-series5-logo.png"
 
 import FirstContaint from './FirstContaints/FirstContaint';
 import SecondContaints from "./SecondContaints/SecContaints";
-import FijiComp1 from "./SingleWide/comp";
-import FijiComp2 from "./DoubleWide/comp";
+import SingleWide from "./SingleWide/comp";
+import DoubleWide from "./DoubleWide/comp";
 
 import FiftyComponent from "./FifthContaints/FifthContaint";
 import SixthContaint from "./SixthContaints/SixthContaints";
@@ -23,10 +23,10 @@ class Main extends Component {
 
         <FirstContaint/>
         <SecondContaints/>
-        <FijiComp1 img={fijiMain1}/>
-        <FijiComp2 logo={AppleTvLogo} title="Apple What" more="more" moreLink="www.yahoo.com"
+        <SingleWide img={fijiMain1}/>
+        <DoubleWide logo={AppleTvLogo} title="Apple What" more="more" moreLink="www.yahoo.com"
                    logo2={WatchSeries5Logo} title2="What Willis" more2="more" moreLink2="www.yahoo.com"/>
-        <FiftyComponent/>
+        {/* <FiftyComponent/> */}
         <SixthContaint/>
         {/* <Youtube/> */}
                      

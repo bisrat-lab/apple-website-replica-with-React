@@ -25,7 +25,7 @@ class Navbar extends Component {
                         </div>
                     </li>
                     <li className="nav-item">
-                        <a href="index.html" className="nav-link nav-link-apple"></a>
+                        <a href="index.html" className="nav-link nav-link-Vandy"></a>
                     </li>
                     <li className="nav-item">
                         <a href="#" className="nav-link nav-link-bag"></a>
@@ -42,7 +42,7 @@ class Navbar extends Component {
                       
                     </li>
                     <li className="nav-item nav-item-hidden">
-                        <a href="/" className="nav-link nav-link-apple"></a>
+                        <a href="/" className="nav-link nav-link-Vandy"></a>
                     </li>
                     <li className="nav-item">
                         <a href="mac" className="nav-link">Mac</a>

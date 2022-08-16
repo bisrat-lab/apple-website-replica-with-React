@@ -5,8 +5,9 @@ import './Footer.css'
 import './Toggel.js'
 
 class Footer extends Component {
+      
     render() { 
-                
+  
     return ( 
             <footer className="footer-wrapper">
             <div className="container"> 
@@ -15,7 +16,7 @@ class Footer extends Component {
                     <p>2. No credit card required.<br/>
                     Lets find time to talk and give me a chance to see if I can help.<br></br>
                     </p>
-                    <a href={"https://calendly.com/vandy_at_ferguson"}> Click here for my Calendly or schedule below</a>
+                    <a href={"https://calendly.com/vandy_at_ferguson"}> Click here for my Calendly or feel free to find time in the widget above.</a>
                 </div>
                 <div className="footer-links-wrapper row"> 
                     <div className="links-wrapper-1 col-sm-12 col-md">
@@ -107,9 +108,9 @@ class Footer extends Component {
                         </ul>						 */}
                     </div> 
                 </div>
-                <div className="my-apple-wrapper"> 
+                {/* <div className="my-apple-wrapper"> 
                     More ways to shop: <a href="#">Find an Apple Store</a> or <a href="#">other retailer</a> near you. Or call 1-800-MY-APPLE.
-                </div>
+                </div> */}
                 <div className="copyright-wrapper row">
                     <div className="copyright col-sm-12 order-2 col-md-8 order-md-1 col-lg-4 order-lg-1">
                         Copyright &copy; 2022 Matthew J Vandergrift LLC. All rights reserved.

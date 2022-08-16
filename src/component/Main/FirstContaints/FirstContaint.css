@@ -22,8 +22,7 @@
 /* Meadia Query */
 @media (min-width: 768px) {
     .first-hightlight-wrapper {
-        background-image: url("../../../images/home/ipodPronew.jpg");
-        min-height: 692px;
+        background-image: url("../../../images/VandyHeadShot.jpg");
     }	
     .ipod-caption {
     padding-top: 415px;

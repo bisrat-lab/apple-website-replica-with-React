@@ -6,6 +6,8 @@ class FirstContaint extends Component {
     render() { 
         return ( 
             <section className="first-hightlight-wrapper">
+				<br/>
+				<br/>
 				<Structure  alert="New" titleColor="black" title="Vandy.io"
 				colorClass="black"
 				/>

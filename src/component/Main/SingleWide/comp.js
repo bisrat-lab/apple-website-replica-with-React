@@ -2,7 +2,7 @@ import React, {Component } from 'react';
 import Structure from "../Containts/Structure";
 import './comp.css'
 
-class FijiComp extends Component {
+class SingleWide extends Component {
    
     render() { 
         return ( 
@@ -19,5 +19,5 @@ class FijiComp extends Component {
     }
 }
  
-export default FijiComp;
+export default SingleWide;
 

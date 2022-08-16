@@ -4,7 +4,15 @@ import ArcadeIcon from "../../../images/icons/arcade.png";
 import StructureTwo from '../Containts/StructureTwo'
 
 class SixthContaint extends Component {
+    componentWillMount () {
+        const script = document.createElement("script");
     
+        script.src = "https://assets.calendly.com/assets/external/widget.js";
+        script.async = true;
+    
+        document.body.appendChild(script);
+    }
+
     render() { 
         return (  
             <section className="sixth-heghlight-wrapper">
@@ -28,10 +36,12 @@ class SixthContaint extends Component {
                                 </div>						
                             </div>
                         </div>
-                        <StructureTwo wrapperClass="right-side-wrapper"
+                        <div className="calendly-inline-widget" style={{width:"50%"}} data-url="https://calendly.com/vandy_at_ferguson?hide_landing_page_details=1&hide_gdpr_banner=1" >
+                        </div>
+                        {/* <StructureTwo wrapperClass="right-side-wrapper"
                             innerClassName="right-side-container" 
                             title="Apple Card Monthly Installments"
-                            description="The simplicity of Apple In a credit card."link="Apply now"><a href="">Learn more</a></StructureTwo>
+                            description="The simplicity of Apple In a credit card."link="Apply now"><a href="">Learn more</a></StructureTwo> */}
                     </div>
                 </div> 
             </section>
