@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 
-
+import fijiMain1 from '../../images/fiji/FijiMain1.png';
+import fijiApp from '../../images/fiji/Fijiapp.png';
+import lightbulb from '../../images/fiji/lightbulb.gif';
+import AppleTvLogo from "../../images/icons/apple-tv-logo.png"
+import WatchSeries5Logo from "../../images/icons/watch-series5-logo.png"
 
 import FirstContaint from './FirstContaints/FirstContaint';
 import SecondContaints from "./SecondContaints/SecContaints";
-import ThirdContaint from "./ThirdContaints/ThirdContaint";
-import ForthContaint from "./ForthContaints/FourthContaints";
+import FijiComp1 from "./SingleWide/comp";
+import FijiComp2 from "./DoubleWide/comp";
+
 import FiftyComponent from "./FifthContaints/FifthContaint";
 import SixthContaint from "./SixthContaints/SixthContaints";
 import Youtube from '../Youtube/Youtube';
@@ -18,8 +23,9 @@ class Main extends Component {
 
         <FirstContaint/>
         <SecondContaints/>
-        <ThirdContaint/>
-        <ForthContaint/>
+        <FijiComp1 img={fijiMain1}/>
+        <FijiComp2 logo={AppleTvLogo} title="Apple What" more="more" moreLink="www.yahoo.com"
+                   logo2={WatchSeries5Logo} title2="What Willis" more2="more" moreLink2="www.yahoo.com"/>
         <FiftyComponent/>
         <SixthContaint/>
         {/* <Youtube/> */}

@@ -18,7 +18,7 @@ class SixthContaint extends Component {
                                     </div>
                                 </div>
                                 <div className="description-wraper white">
-                                    Agent 8 is a small hero on a big mission.
+                                    Workday Conversion that was Epic
                                 </div>
                                 <div className="links-wrapper">
                                     <ul>

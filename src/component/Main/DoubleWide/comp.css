@@ -1,0 +1,21 @@
+.doublewide-highlight-wrapper .left-side-wrapper .left-side-container{
+	padding-top: 35px;
+	margin: 0 0 10px 0;
+}
+.doublewide-highlight-wrapper .right-side-wrapper .right-side-container{
+	padding-top: 35px;
+	margin: 0 0 10px 0;
+}
+.doublewide-highlight-wrapper .description-wraper {
+	max-width: 450px;
+	margin: 7px auto;
+}
+
+@media (min-width: 768px) {
+.doublewide-highlight .left-side-wrapper .left-side-container {
+    margin: 5px 5px 5px 10px;
+}
+.doublewide-highlight .right-side-wrapper .right-side-container {
+    margin: 5px 10px 5px 5px;
+}
+}
