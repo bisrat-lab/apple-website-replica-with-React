@@ -10,7 +10,6 @@ class SecondContaints extends Component {
 				<Structure  alert="Known For" titleColor="black" title="Blue Buzz" priceColor ="grey" price = "Over 500 units sold, with one only version needed from 2019-2022"
 				colorClass="black" link1="" link2="" description="Apple Watch & iPhone Location Notification"
 				/>
-				
 	        </section>
          );
     }
