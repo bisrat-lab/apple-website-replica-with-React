@@ -14,6 +14,8 @@ import Footer from "./component/Footer/Footer"
 
 import IPhone from "./component/Pages/IPhone/IPhone"
 import Error from "./component/Pages/Error/Error"
+import Usage from "./component/Pages/Usage/Usage"
+import Privacy from "./component/Pages/Usage/Privacy"
 import Mac from './component/Pages/Mac/Mac';
 import Watch from './component/Pages/Watch/Watch'
 import Productpage from './component/Pages/Productpage/Productpage'
@@ -26,6 +28,8 @@ class App extends Component {
           <Navbar/>
             <Switch>
                <Route path="/" exact component={Main}/>
+               <Route path="/use" exact component={Usage}/>
+               <Route path="/privacy" exact component={Privacy}/>
                <Route path="/iphone" exact component={IPhone}/>
                <Route path="/mac" exact component={Mac}/>
                <Route path="/watch" exact component={Watch}/>
