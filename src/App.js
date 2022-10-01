@@ -15,8 +15,8 @@ import Footer from "./component/Footer/Footer"
 import IPhone from "./component/Pages/IPhone/IPhone"
 import Error from "./component/Pages/Error/Error"
 import Usage from "./component/Pages/Usage/Usage"
-import Privacy from "./component/Pages/Usage/Privacy"
-import Mac from './component/Pages/Mac/Mac';
+import Privacy from "./component/Pages/Privacy/Privacy"
+import DevSecOps from './component/Pages/DevSecOps/DevSecOps';
 import Watch from './component/Pages/Watch/Watch'
 import Productpage from './component/Pages/Productpage/Productpage'
 
@@ -31,7 +31,7 @@ class App extends Component {
                <Route path="/use" exact component={Usage}/>
                <Route path="/privacy" exact component={Privacy}/>
                <Route path="/iphone" exact component={IPhone}/>
-               <Route path="/mac" exact component={Mac}/>
+               <Route path="/DevSecOps" exact component={DevSecOps}/>             
                <Route path="/watch" exact component={Watch}/>
                <Route path="/iphone/:pid" exact component={Productpage}/>
                <Route path="/" component={Error}/>

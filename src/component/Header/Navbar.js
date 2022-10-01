@@ -45,33 +45,32 @@ class Navbar extends Component {
                         <a href="/" className="nav-link nav-link-Vandy"></a>
                     </li>
                     <li className="nav-item">
-                        <a href="mac" className="nav-link">Mac</a>
+                        <a href="DevSecOps" className="nav-link">DevSecOps</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">iPad</a>
+                        <a href="Archie" className="nav-link">Ask Archie</a>
                     </li>
                     <li className="nav-item">
-                        <a href="iphone" className="nav-link">iPhone</a>
+                        <a href="iphone" className="nav-link">BlueBuzz</a>
                     </li>
                     <li className="nav-item">
-                        <a href="watch" className="nav-link">Watch</a>
+                        <a href="watch" className="nav-link">HomeAide Pi</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">TV</a>
+                        <a href="#" className="nav-link">Fiji</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">Music</a>
+                        <a href="#" className="nav-link">Agile Coach</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">Support</a>
+                        <a href="#" className="nav-link">Technology Mentor</a>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <a href="#" className="nav-link nav-link-search"></a>
                     </li>
                     <li className="nav-item">
                             <a href="#" className="nav-link nav-link-bag"></a>
-                    </li>
-                  
+                    </li> */}
                 </ul> 
                     
             </nav>
