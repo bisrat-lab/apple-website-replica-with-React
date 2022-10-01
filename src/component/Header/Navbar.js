@@ -51,7 +51,7 @@ class Navbar extends Component {
                         <a href="Archie" className="nav-link">Ask Archie</a>
                     </li>
                     <li className="nav-item">
-                        <a href="iphone" className="nav-link">BlueBuzz</a>
+                        <a href="BlueBuzz" className="nav-link">BlueBuzz</a>
                     </li>
                     <li className="nav-item">
                         <a href="watch" className="nav-link">HomeAide Pi</a>
@@ -60,7 +60,7 @@ class Navbar extends Component {
                         <a href="#" className="nav-link">PuzzlR</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">Fiji</a>
+                        <a href="Fiji" className="nav-link">Fiji</a>
                     </li>
                     <li className="nav-item">
                         <a href="#" className="nav-link">Agile Coach</a>

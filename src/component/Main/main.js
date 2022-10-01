@@ -18,7 +18,6 @@ class Main extends Component {
   render(){
     return (
       <div>
-
         <FirstContaint/>
         <SecondContaints/>
         <SingleWide img={fijiMain1}/>

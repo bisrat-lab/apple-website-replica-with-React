@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 
-class IPhone extends Component {
+class BlueBuzz extends Component {
     constructor(){
         super();
         this.state = {
@@ -95,4 +95,4 @@ class IPhone extends Component {
     }
 }
 
-export default IPhone
+export default BlueBuzz;
