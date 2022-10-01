@@ -57,6 +57,9 @@ class Navbar extends Component {
                         <a href="watch" className="nav-link">HomeAide Pi</a>
                     </li>
                     <li className="nav-item">
+                        <a href="#" className="nav-link">PuzzlR</a>
+                    </li>
+                    <li className="nav-item">
                         <a href="#" className="nav-link">Fiji</a>
                     </li>
                     <li className="nav-item">

@@ -9,7 +9,7 @@ class Mac extends Component{
         }
     }
     componentDidMount(){
-        fetch("./mac.json")
+        fetch("./DevSecOps.json")
             .then(res => res.json())
             .then((x) => {
 
