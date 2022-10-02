@@ -24,11 +24,11 @@ Project is created with:
 * JavaScript
 
 
-
-	
 ## Setup
 To run this project, npm start 
 
 ## Copyright
-**© 2020 
-**By Bisrat Tegegne**
+**© 2022
+**By Matthew Vandergrift**
+
+Original Idea inspired by: https://github.com/bisrat-lab/apple-website-replica-with-React
