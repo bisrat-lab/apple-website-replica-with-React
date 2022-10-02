@@ -1,28 +1,16 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom';
+import Carousel from '../../../component/Images/Carousel';
+
+const count = 27
+const images = Array.from({ length: count }, (_, i) => ({
+  original: `https://github.com/homeaidepi/vandy.io/blob/master/src/images/BlueBuzz/history/BlueBuzzHistory (${i}).jpg?raw=true`,
+  thumbnail: `https://github.com/homeaidepi/vandy.io/blob/master/src/images/BlueBuzz/history/BlueBuzzHistory (${i})_tn.jpg?raw=true`,
+}));
+
+const items = [...images];
 
 class BlueBuzz extends Component {
-    constructor(){
-        super();
-        this.state = {
-            products: []
-        }
-    }
-    componentDidMount(){
-        fetch("./iphone.json")
-            .then(res => res.json())
-            .then((x) => {
-
-                this.setState((state) => {
-                    return{
-                        products: x.products,
-                    };
-                })
-            })
-    }
     render() {
-        console.log(this.state.products)
-        let order = 1;
         return (
             <div>
 				<section className="internal-page-wrapper">
@@ -30,64 +18,14 @@ class BlueBuzz extends Component {
 						<div className="row justify-content-center text-center">
 							<div className="col-12">
 								<div className="title-wraper">
-									iPhones 
+									BlueBuzz - iPhone & Apple Watch 
 								</div>
 								<div className="brief-description">
-									The best for the brightest
+									Separation Notification 
 								</div>
 							</div> 
 						</div>
-						{
-							this.state.products.map((product) => {
-								let id = product.Id;
-								let productPage = "/iphone/"+id;
-
-								let order1 = 1;
-								let order2 = 2;
-								if(order != 1)	{
-									order1 = 2;
-									order2 = 1;
-									order--;
-								}else{
-									order++;
-								}
-
-								let productDiv =
-								<div key={id} className="row justify-content-center text-center product-holder h-100">
-									<div className={`col-sm-12 col-md-6 my-auto order-${order1}`}>
-										<div className="product-title">
-											{product.Title}
-										</div>
-										<div className="description-wraper">
-											{product.Brief}
-										</div>
-										<div className="price-wrapper">
-											{`Starting at ${product.StartPrice}`}
-										</div>
-										<div className="monthly-price">
-											{product.PriceRange}
-										</div>
-										<div className="links-wrapper">
-											<ul>
-												<li>
-													<Link to={productPage}>Learn more
-													</Link>
-												</li>
-											</ul> 
-										</div>
-									</div> 
-
-									<div  className={`col-sm-12 col-md-6 order-${order2}`}>
-										<div className="prodict-image">
-											<img src={ product.img}/>
-										</div>
-									</div> 
-								</div>								
-								;
-								return productDiv; 
-							})
-						}
-				
+						<Carousel items={items} />
 					</div>
 				</section>
 			</div>
