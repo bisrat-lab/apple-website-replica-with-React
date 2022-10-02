@@ -20,7 +20,6 @@ class Main extends Component {
       <div>
         <FirstContaint/>
         <SecondContaints/>
-        <SingleWide img={fijiMain1}/>
         <Carousel />
         <DoubleWide logo={lightbulb} title="Apple What" more="more" moreLink="#"
                    logo2={NewsSequence} title2="What Willis" more2="more" moreLink2="#"/>
