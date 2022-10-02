@@ -4,8 +4,8 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const count = 27
 const images = Array.from({ length: count }, (_, i) => ({
-  original: `./src/images/fiji/history/FijiHistory (${i}).jpg`,
-  thumbnail: `./src/images/fiji/history/FijiHistory (${i})_tn.jpg`,
+  original: `https://github.com/homeaidepi/vandy.io/blob/master/src/images/fiji/history/FijiHistory (${i}).jpg?raw=true`,
+  thumbnail: `https://github.com/homeaidepi/vandy.io/blob/master/src/images/fiji/history/FijiHistory (${i})_tn.jpg?raw=true`,
 }));
 
 class Carousel extends React.Component {
