@@ -33,9 +33,6 @@ class Main extends Component {
         <FirstContaint/>
         <SecondContaints/>
         <Carousel items={items} />
-        {/* <FiftyComponent/> */}
-        {/* <Youtube/> */}
-        
         <SixthContaint/>
       </div>
       

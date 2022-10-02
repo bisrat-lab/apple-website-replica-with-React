@@ -54,10 +54,7 @@ class Navbar extends Component {
                         <a href="BlueBuzz" className="nav-link">BlueBuzz</a>
                     </li>
                     <li className="nav-item">
-                        <a href="watch" className="nav-link">HomeAide Pi</a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="#" className="nav-link">PuzzlR</a>
+                        <a href="PuzzlR" className="nav-link">PuzzlR</a>
                     </li>
                     <li className="nav-item">
                         <a href="Fiji" className="nav-link">Fiji</a>

@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import Carousel from '../../../component/Images/Carousel';
 
-const count = 27
+const count = 26
 const images = Array.from({ length: count }, (_, i) => ({
-  original: `https://github.com/homeaidepi/vandy.io/blob/master/src/images/BlueBuzz/history/BlueBuzzHistory (${i}).jpg?raw=true`,
-  thumbnail: `https://github.com/homeaidepi/vandy.io/blob/master/src/images/BlueBuzz/history/BlueBuzzHistory (${i})_tn.jpg?raw=true`,
+  original: `https://github.com/homeaidepi/vandy.io/blob/master/src/images/bluebuzz/history/BlueBuzzHistory (${i+1}).jpg?raw=true`,
+  thumbnail: `https://github.com/homeaidepi/vandy.io/blob/master/src/images/bluebuzz/history/BlueBuzzHistory (${i+1})_tn.jpg?raw=true`,
 }));
 
 const items = [...images];

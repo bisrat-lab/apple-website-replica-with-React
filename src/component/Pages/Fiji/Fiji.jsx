@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import shareFiji from '../../../images/fiji/history/shareFiji.mp4';
 
-
- class Fiji extends Component {
+class Fiji extends Component {
     constructor(){
         super();
     }
