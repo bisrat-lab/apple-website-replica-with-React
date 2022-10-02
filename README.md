@@ -1,5 +1,5 @@
 
-# Apple website replica with React  
+# Vandy 
 
 ## Table of contents
 * [General info](#general-info)
