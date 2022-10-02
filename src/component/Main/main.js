@@ -12,7 +12,7 @@ import DoubleWide from "./DoubleWide/comp";
 // import FiftyComponent from "./FifthContaints/FifthContaint";
 import SixthContaint from "./SixthContaints/SixthContaints";
 // import Youtube from '../Youtube/Youtube';
-
+import Carousel from '../Images/Carousel';
 
 class Main extends Component {
   render(){
@@ -21,6 +21,7 @@ class Main extends Component {
         <FirstContaint/>
         <SecondContaints/>
         <SingleWide img={fijiMain1}/>
+        <Carousel />
         <DoubleWide logo={lightbulb} title="Apple What" more="more" moreLink="#"
                    logo2={NewsSequence} title2="What Willis" more2="more" moreLink2="#"/>
         {/* <FiftyComponent/> */}
