@@ -7,10 +7,18 @@ const images = Array.from({ length: count }, (_, i) => ({
   original: `https://github.com/homeaidepi/vandy.io/blob/master/src/images/fiji/history/FijiHistory (${i}).jpg?raw=true`,
   thumbnail: `https://github.com/homeaidepi/vandy.io/blob/master/src/images/fiji/history/FijiHistory (${i})_tn.jpg?raw=true`,
 }));
+const videos = [
+  {
+    original: `https://github.com/homeaidepi/vandy.io/blob/master/src/images/fiji/history/shareFiji.mp4?raw=true`,
+    thumbnail: `https://github.com/homeaidepi/vandy.io/blob/master/src/images/fiji/history/FijiHistory (1)_tn.jpg?raw=true`,
+  }
+]
+
+const items = [...images, ...videos];
 
 class Carousel extends React.Component {
   render() {
-    return <ImageGallery items={images} />;
+    return <ImageGallery items={items} />;
   }
 }
 
