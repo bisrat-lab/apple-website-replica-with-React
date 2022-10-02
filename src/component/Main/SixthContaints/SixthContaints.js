@@ -1,7 +1,5 @@
 import React, {Component } from 'react';
 import './SixthContaints.css'
-import ArcadeIcon from "../../../images/icons/arcade.png";
-import StructureTwo from '../Containts/StructureTwo'
 
 class SixthContaint extends Component {
     componentWillMount () {
@@ -22,18 +20,10 @@ class SixthContaint extends Component {
                             <div className="left-side-container">
                                 <div className="top-logo-wrapper">
                                     <div className="logo-wrapper">
-                                        <img src={ArcadeIcon}/>
+                                    
                                     </div>
                                 </div>
-                                <div className="description-wraper white">
-                                    Workday Conversion that was Epic
-                                </div>
-                                <div className="links-wrapper">
-                                    <ul>
-                                        <li><a href="">Play now<sup>2</sup></a></li>
-                                        <li><a href="">Learn about Apple Arcade</a></li>
-                                    </ul> 
-                                </div>						
+                                				
                             </div>
                         </div>
                         <div className="calendly-inline-widget" style={{width:"50%"}} data-url="https://calendly.com/vandy_at_ferguson?hide_landing_page_details=1&hide_gdpr_banner=1" >
