@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-// import { Carousel } from '../../Images/Carousel';
+import Carousel from '../../Images/Carousel';
 
  class Fiji extends Component {
     constructor(){
@@ -28,7 +28,7 @@ import React, { Component } from 'react'
             <div>
 				<section className="internal-page-wrapper">
 					<div className="container"> 
-					
+                        <Carousel />
 					</div>
 				</section>
 			</div>
