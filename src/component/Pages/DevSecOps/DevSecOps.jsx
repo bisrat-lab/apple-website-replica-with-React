@@ -30,11 +30,11 @@ class Mac extends Component{
 						<div className="row justify-content-center text-center">
 							<div className="col-12">
 								<div className="title-wraper large">
-								Which Mac notebook is right for you?
+								DevSecOps
 								</div>
-								{/* <div className="brief-description">
-									The best for the brightest
-								</div> */}
+								<div className="brief-description">
+									IThe integration of observability, testability, & security at every stage of the SDLC.
+								</div>
 							</div> 
 						</div>
 						{

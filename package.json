@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "jquery": "^3.5.1",
     "react": "^16.13.1",
+    "react-calendly": "^4.1.0",
     "react-dom": "^16.13.1",
     "react-image-gallery": "^1.2.9",
     "react-router-dom": "^5.2.0",

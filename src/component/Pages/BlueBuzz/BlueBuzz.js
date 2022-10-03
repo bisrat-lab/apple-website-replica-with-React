@@ -18,10 +18,10 @@ class BlueBuzz extends Component {
 						<div className="row justify-content-center text-center">
 							<div className="col-12">
 								<div className="title-wraper">
-									BlueBuzz - iPhone & Apple Watch 
+									BlueBuzz
 								</div>
 								<div className="brief-description">
-									Separation Notification 
+									Apple Watch & iPhone Location Notification
 								</div>
 							</div> 
 						</div>

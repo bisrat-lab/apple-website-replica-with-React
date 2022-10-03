@@ -1,5 +1,6 @@
 import React, {Component } from 'react';
 import './SixthContaints.css'
+import puzzlR1 from '../../../images/puzzlr/V7 Logo Vandy.mp4';
 
 class SixthContaint extends Component {
     componentWillMount () {
@@ -16,16 +17,9 @@ class SixthContaint extends Component {
             <section className="sixth-heghlight-wrapper">
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="left-side-wrapper col-sm-12 col-md-6">
-                            <div className="left-side-container">
-                                <div className="top-logo-wrapper">
-                                    <div className="logo-wrapper">
-                                    
-                                    </div>
-                                </div>
-                                				
-                            </div>
-                        </div>
+                            <video width="100%" controls >
+                                <source src={puzzlR1} type="video/mp4"/>
+                            </video>
                         <div className="calendly-inline-widget" style={{width:"50%"}} data-url="https://calendly.com/vandy_at_ferguson?hide_landing_page_details=1&hide_gdpr_banner=1" >
                         </div>
                         {/* <StructureTwo wrapperClass="right-side-wrapper"

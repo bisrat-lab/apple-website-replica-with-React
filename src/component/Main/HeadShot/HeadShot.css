@@ -1,0 +1,11 @@
+.headshot-hightlight-wrapper {
+	height: 600px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+  background-size: initial;
+  background-color: #fbfbfd;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;
+	margin-bottom: 10px;	
+}

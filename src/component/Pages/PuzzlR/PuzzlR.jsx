@@ -3,7 +3,6 @@ import puzzlR1 from '../../../images/puzzlr/GamePreview.mp4';
 import puzzlR2 from '../../../images/puzzlr/NewsSequence.mp4';
 import puzzlR3 from '../../../images/puzzlr/SpaceShipDeparting.mp4';
 // import puzzlR4 from '../../../images/puzzlr/PuzzlRMainMenu.mp4';
-import puzzlR5 from '../../../images/puzzlr/V7 Logo Vandy.mp4';
 
 class PuzzlR extends Component {
     constructor(){
@@ -33,12 +32,6 @@ class PuzzlR extends Component {
                         </video>
 						<video width="100%" controls >
                             <source src={puzzlR3} type="video/mp4"/>
-                        </video>
-						{/* <video width="100%" controls >
-                            <source src={puzzlR4} type="video/mp4"/>
-                        </video> */}
-						<video width="100%" controls >
-                            <source src={puzzlR5} type="video/mp4"/>
                         </video>
 					</div>
 				</section>

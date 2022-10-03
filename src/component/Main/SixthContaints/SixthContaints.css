@@ -24,7 +24,9 @@
 	background-image: url("../../../images/home/Card_large.jpg");
     margin: 5px 10px 10px 5px;
 }	
-.sixth-heghlight-wrapper .links-wrapper {
+.sixth-heghlight-wrapper{
     max-width: 500px;
+	height: 600px;
+
 }
 }
