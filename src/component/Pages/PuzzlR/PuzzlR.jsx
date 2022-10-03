@@ -2,13 +2,8 @@ import React, { Component } from 'react'
 import puzzlR1 from '../../../images/puzzlr/GamePreview.mp4';
 import puzzlR2 from '../../../images/puzzlr/NewsSequence.mp4';
 import puzzlR3 from '../../../images/puzzlr/SpaceShipDeparting.mp4';
-// import puzzlR4 from '../../../images/puzzlr/PuzzlRMainMenu.mp4';
 
 class PuzzlR extends Component {
-    constructor(){
-        super();
-    }
-     
     render() {
         return (
             <div>

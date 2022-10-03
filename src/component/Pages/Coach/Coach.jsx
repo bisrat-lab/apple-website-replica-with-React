@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import shareFiji from '../../../images/fiji/history/shareFiji.mp4';
 
-class Fiji extends Component {
+class Coach extends Component {
     render() {
         return (
             <div>
@@ -10,16 +9,14 @@ class Fiji extends Component {
 						<div className="row justify-content-center text-center">
 							<div className="col-12">
 								<div className="title-wraper">
-									Fiji - Home Automation
+									Agile - more than buzzword
 								</div>
 								<div className="brief-description">
-									What if your home helped you? 
+									Agile is a mindset, a way of thinking, and a way of working. 
+									Ways of working that are focused on delivering value to the customer. 
 								</div>
 							</div> 
 						</div>
-                        <video width="100%" controls >
-                            <source src={shareFiji} type="video/mp4"/>
-                        </video>
 					</div>
 				</section>
 			</div>
@@ -27,4 +24,4 @@ class Fiji extends Component {
     }
 }
 
-export default Fiji
+export default Coach

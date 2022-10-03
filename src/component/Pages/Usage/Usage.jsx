@@ -2,7 +2,6 @@ import React from 'react'
 import './Usage.css'
 
 function Usage () {
- 
         return (
             <section className="internal-page-wrapper">
                 <div className="container">
@@ -15,8 +14,7 @@ function Usage () {
                 </div>
             </section>
         )
-    
 }
 
-export default Error
+export default Usage
 

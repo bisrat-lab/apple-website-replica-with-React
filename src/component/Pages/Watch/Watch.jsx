@@ -80,7 +80,7 @@ import { Link } from 'react-router-dom';
 									</div> 
 
 									<div  className={`col-sm-12 col-md-6 order-${order2}`}>
-										<div className="prodict-image">
+										<div className="product-image">
 											<img src={ product.img}/>
 										</div>
 									</div> 

@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
-class Mac extends Component{
+class DevSecOps extends Component{
 	constructor(){
         super();
         this.state = {
-            products: []
+            topics: []
         }
     }
     componentDidMount(){
@@ -15,13 +15,13 @@ class Mac extends Component{
 
                 this.setState((state) => {
                     return{
-                        products: x.products,
+                        topics: x.topics,
                     };
                 })
             })
     }
      render(){
-        console.log(this.state.products)
+        console.log(this.state.topics)
         let order = 1;
         return (
             <div>
@@ -33,14 +33,17 @@ class Mac extends Component{
 								DevSecOps
 								</div>
 								<div className="brief-description">
-									IThe integration of observability, testability, & security at every stage of the SDLC.
+									The integration of observability, testability, & security at every stage of the SDLC.
 								</div>
+								<br />
+								<br />
+								<br />
 							</div> 
 						</div>
 						{
-							this.state.products.map((product) => {
-								let id = product.Id;
-								let productPage = "/iphone/"+id;
+							this.state.topics.map((topic) => {
+								let id = topic.Id;
+								let topicPage = "/topic/"+id;
 
 								let order1 = 1;
 								let order2 = 2;
@@ -52,27 +55,26 @@ class Mac extends Component{
 									order++;
 								}
 
-								let productDiv =
-								<div key={id} className="row justify-content-center text-center product-holder h-100">
+								let topicDiv =
+								<div key={id} className="row justify-content-center text-center topic-holder h-100">
 									<div className={`col-sm-12 col-md-6 my-auto order-${order1}`}>
 										<div className ="new-alert">
-											{product.Alert}
+											{topic.alert}
 										</div>
-									<div className="monthly-price inch">
-												{product.PriceRange}
-											</div>
+										{/* <div className="description-wraper">
+											{topic.description}
+										</div> */}
 										<div className="product-title">
-                                        { product.Title}
+                                        	{ topic.title}
 										</div>
-										<div className="description-wraper">
-											{product.Brief}
-										</div>
-										
-										
 										<div className="links-wrapper">
 											<ul>
 												<li>
-													<Link to={productPage}>Learn more
+													<Link url={topic.url}>Main Link
+													</Link>
+												</li>
+												<li>
+													<Link to={topicPage}>Learn more
 													</Link>
 												</li>
 											</ul> 
@@ -80,13 +82,13 @@ class Mac extends Component{
 									</div> 
 
 									<div  className={`col-sm-12 col-md-6 order-${order2}`}>
-										<div className="prodict-image">
-											<img src={ product.img}/>
+										<div className="topic-image">
+											<img src={ topic.img} alt="topicImage"/>
 										</div>
 									</div> 
 								</div>								
 								;
-								return productDiv; 
+								return topicDiv; 
 							})
 						}
 				
@@ -97,4 +99,4 @@ class Mac extends Component{
     }
 			
 }
-export default Mac;
+export default DevSecOps;

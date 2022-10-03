@@ -1,5 +1,4 @@
 import React, {Component } from 'react';
-import Structure from "../Containts/Structure"
 import './HeadShot.css';
 
 import VandyHeadShot from "../../../images/HeadshotShadowHomeAidePi.png"

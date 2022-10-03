@@ -70,7 +70,7 @@ class Productpage extends Component {
 										</div> 
 
 										<div  className={`col-sm-12 col-md-6`}>
-											<div className="prodict-image">
+											<div className="product-image">
 												<img src={img}/>
 											</div>
 										</div> 

@@ -37,7 +37,7 @@ class Navbar extends Component {
                     <li className="nav-item search-hiden">
                       
                         <input className="nav-link nav-link-searchbar" type="text" 
-                            placeholder="&#xF002; Search apple.com" 
+                            placeholder="&#xF002; Search Vandy.io" 
                             style={{fontFamily:"Arial, FontAwesome"}} />
                       
                     </li>
@@ -60,10 +60,13 @@ class Navbar extends Component {
                         <a href="Fiji" className="nav-link">Fiji</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">Agile Coach</a>
+                        <a href="Coach" className="nav-link">Agile Coach</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">Technology Mentor</a>
+                        <a href="Mentor" className="nav-link">New Collar Mentor</a>
+                    </li>
+                    <li className="nav-item">
+                        <a href="#" className="nav-link">Pair Programming</a>
                     </li>
                     {/* <li className="nav-item">
                         <a href="#" className="nav-link nav-link-search"></a>

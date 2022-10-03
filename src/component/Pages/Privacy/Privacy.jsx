@@ -219,5 +219,5 @@ function Privacy () {
     
 }
 
-export default Error
+export default Privacy
 
