@@ -3,7 +3,6 @@
 import React, {Component}from "react"
 import './Header.css';
 
-
 class Navbar extends Component {
     componentDidMount(){
             const selectElement = (element) =>document.querySelector(element);
@@ -60,13 +59,7 @@ class Navbar extends Component {
                         <a href="Fiji" className="nav-link">Fiji</a>
                     </li>
                     <li className="nav-item">
-                        <a href="Coach" className="nav-link">Agile Coach</a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="Mentor" className="nav-link">New Collar Mentor</a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="#" className="nav-link">Pair Programming</a>
+                        <a href="Coach" className="nav-link">Agile Coach &#160;&#160;&#160; New Collar Mentor &#160;&#160;&#160; Pair Programming &#160;&#160;&#160; My Bio</a>
                     </li>
                     {/* <li className="nav-item">
                         <a href="#" className="nav-link nav-link-search"></a>
