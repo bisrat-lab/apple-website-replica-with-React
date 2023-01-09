@@ -1,6 +1,9 @@
 
 # Vandy 
 
+![VandyHeadShotLarge](https://user-images.githubusercontent.com/100984270/211225672-d54dfc40-8c0d-43a5-be22-fe33e92ca56a.jpg)
+
+
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
