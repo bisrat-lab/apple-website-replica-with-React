@@ -47,7 +47,7 @@ class DevSecOps extends Component{
 
 								let order1 = 1;
 								let order2 = 2;
-								if(order != 1)	{
+								if(order !== 1)	{
 									order1 = 2;
 									order2 = 1;
 									order--;

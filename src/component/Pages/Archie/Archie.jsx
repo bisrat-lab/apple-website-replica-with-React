@@ -22,6 +22,7 @@ class Archie extends Component{
     }
      render(){
         console.log(this.state.topics)
+        console.log('alpha')
         let order = 1;
         return (
             <div>
@@ -38,6 +39,8 @@ class Archie extends Component{
 								<br />
 								<br />
 								<br />
+                                <div>May not connect as it may be disabled for user</div>
+                                <iframe style={{height:600, width:800}} src='https://webchat.botframework.com/embed/askarchiedev4d64fc?s=v7Bh8B-KKQI.Gs3qzekdmRuG3A24n13LQSCnJT-CuAYotrf5rhDOse0'></iframe>
 							</div> 
 						</div>
 					</div>
