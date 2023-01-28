@@ -1,7 +1,8 @@
 
 # Vandy 
 
-![VandyHeadShotLarge](https://user-images.githubusercontent.com/100984270/211225672-d54dfc40-8c0d-43a5-be22-fe33e92ca56a.jpg)
+![image](https://user-images.githubusercontent.com/100984270/215236721-b6c22910-6a3b-4b5c-ae91-a2f680737f32.png)
+
 
 
 ## Table of contents
@@ -13,7 +14,10 @@
 ## General info
 Recreated the live website of www.apple.com starting from the design, all the way to creating React components and deploying the project. This project also includes a section of poplar apple videos that directly access from youtube using API.
 
-<img src="/public/Screenreact.jpg">
+![image](https://user-images.githubusercontent.com/100984270/215236739-04121bfd-5e40-4264-a9bb-8143a5bb1472.png)
+![image](https://user-images.githubusercontent.com/100984270/215236752-09f046ed-1a69-4f99-8294-2d6bfa144787.png)
+![image](https://user-images.githubusercontent.com/100984270/215236787-29b018dd-07f0-41a9-914a-a20388341019.png)
+
 
   
   
