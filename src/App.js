@@ -22,6 +22,7 @@ import Archie from './component/Pages/Archie/Archie';
 import Productpage from './component/Pages/Productpage/Productpage'
 import BlueBuzz from './component/Pages/BlueBuzz/BlueBuzz';
 import Fiji from './component/Pages/Fiji/Fiji';
+import Disclaimer from './component/Pages/Disclaimer/Disclaimer';
 
 class App extends Component {
   render(){
@@ -33,6 +34,7 @@ class App extends Component {
                <Route path="/" exact component={Main}/>
                <Route path="/use" exact component={Usage}/>
                <Route path="/privacy" exact component={Privacy}/>
+               <Route path="/disclaimer" exact component={Disclaimer}/>
                <Route path="/BlueBuzz" exact component={BlueBuzz}/>
                <Route path="/DevSecOps" exact component={DevSecOps}/>             
                <Route path="/PuzzlR" exact component={PuzzlR}/>
