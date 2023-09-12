@@ -19,7 +19,6 @@ import DevSecOps from './component/Pages/DevSecOps/DevSecOps';
 import PuzzlR from './component/Pages/PuzzlR/PuzzlR';
 import Coach from './component/Pages/Coach/Coach';
 import Archie from './component/Pages/Archie/Archie';
-import Productpage from './component/Pages/Productpage/Productpage'
 import BlueBuzz from './component/Pages/BlueBuzz/BlueBuzz';
 import Fiji from './component/Pages/Fiji/Fiji';
 import Disclaimer from './component/Pages/Disclaimer/Disclaimer';
@@ -41,7 +40,6 @@ class App extends Component {
                <Route path="/Coach" exact component={Coach}/>
                <Route path="/Archie" exact component={Archie}/>
                <Route path="/Fiji" exact component={Fiji}/>
-               <Route path="/iphone/:pid" exact component={Productpage}/>
                <Route path="/" component={Error}/>
             </Switch>          
           <Footer/>
