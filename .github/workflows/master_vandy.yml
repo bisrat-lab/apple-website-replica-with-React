@@ -4,9 +4,9 @@
 name: Build and deploy Node.js app to Azure Web App - Vandy
 
 on:
-  # push:
-  #   branches:
-  #     - master
+  push:
+    branches:
+      - master
   workflow_dispatch:
 
 jobs:
@@ -19,21 +19,19 @@ jobs:
       - name: Set up Node.js version
         uses: actions/setup-node@v1
         with:
-          node-version: '16.x'
+          node-version: '18.x'
 
       - name: npm install, build, and test
         run: |
           npm install
-          CI=false npm run build --if-present
-
-      - name: Zip artifact for deployment
-        run: zip release.zip ./* -r
+          npm run build --if-present
+          npm run test --if-present
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
           name: node-app
-          path: release.zip
+          path: .
 
   deploy:
     runs-on: ubuntu-latest
@@ -54,5 +52,5 @@ jobs:
         with:
           app-name: 'Vandy'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E8DB5191373F4E8EA72B164C68C92A6E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6958A2B0A26F40C7A347205975BA30CC }}
           package: .
