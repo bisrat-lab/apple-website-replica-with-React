@@ -16,7 +16,6 @@ const videos = [
 ]
 
 const items = [...images, ...videos];
-const titleColor = "black";
 
 class FijiContaint extends Component {
     render() { 

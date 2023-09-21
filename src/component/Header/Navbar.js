@@ -1,5 +1,3 @@
-
-
 import React, {Component}from "react"
 import './Header.css';
 
@@ -24,53 +22,43 @@ class Navbar extends Component {
                         </div>
                     </li>
                     <li className="nav-item">
-                        <a href="index.html" className="nav-link nav-link-Vandy"></a>
+                        <a href="index.html" aria-label="Vandy Link"> className="nav-link nav-link-Vandy"></a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link nav-link-bag"></a>
+                        <a href="#" aria-label="Vandy Link"> className="nav-link nav-link-bag"></a>
                     </li>
                    
                 </ul>
-                {/* <!-- /.nav-list nav-list-mobile -->  */}
                 <ul className="nav-list nav-list-larger">
                     <li className="nav-item search-hiden">
-                      
                         <input className="nav-link nav-link-searchbar" type="text" 
                             placeholder="&#xF002; Search Vandy.io" 
                             style={{fontFamily:"Arial, FontAwesome"}} />
                       
                     </li>
                     <li className="nav-item nav-item-hidden">
-                        <a href="/" className="nav-link nav-link-Vandy"></a>
+                        <a href="/" aria-label="Vandy Link" className="nav-link nav-link-Vandy"></a>
                     </li>
                     <li className="nav-item">
-                        <a href="DevSecOps" className="nav-link">DevSecOps</a>
+                        <a href="DevSecOps" aria-label="Vandy Link" className="nav-link">DevSecOps</a>
                     </li>
                     <li className="nav-item">
-                        <a href="Archie" className="nav-link">Ask Archie</a>
+                        <a href="Archie" aria-label="Vandy Link" className="nav-link">Ask Archie</a>
                     </li>
                     <li className="nav-item">
-                        <a href="BlueBuzz" className="nav-link">BlueBuzz</a>
+                        <a href="BlueBuzz" aria-label="Vandy Link" className="nav-link">BlueBuzz</a>
                     </li>
                     <li className="nav-item">
-                        <a href="PuzzlR" className="nav-link">PuzzlR</a>
+                        <a href="PuzzlR" aria-label="Vandy Link" className="nav-link">PuzzlR</a>
                     </li>
                     <li className="nav-item">
-                        <a href="Fiji" className="nav-link">Fiji</a>
+                        <a href="Fiji" aria-label="Vandy Link" className="nav-link">Fiji</a>
                     </li>
                     <li className="nav-item">
-                        <a href="Coach" className="nav-link">Agile Coach &#160;&#160;&#160; New Collar Mentor &#160;&#160;&#160; Pair Programming &#160;&#160;&#160; My Bio</a>
+                        <a href="Coach" aria-label="Vandy Link" className="nav-link">Agile Coach &#160;&#160;&#160; New Collar Mentor &#160;&#160;&#160; Pair Programming &#160;&#160;&#160; My Bio</a>
                     </li>
-                    {/* <li className="nav-item">
-                        <a href="#" className="nav-link nav-link-search"></a>
-                    </li>
-                    <li className="nav-item">
-                            <a href="#" className="nav-link nav-link-bag"></a>
-                    </li> */}
                 </ul> 
-                    
             </nav>
-
         </div>
     </header>
     )
@@ -78,56 +66,3 @@ class Navbar extends Component {
 }
  
 export default Navbar;
-
-
-
-
-
-
-
-
-
-
-// import React, {Component}from "react"
-// import Navlink from "./Navlink"
-// import logo from "../../images/icons/app.svg"
-// import search from "../../images/icons/search-icon-sm.png"
-// import cart from "../../images/icons/cart-sm.png"
-// import './Header.css'
-
-// className Navbar extends Component {
-//     render() { 
-//         return ( 
-//             <div classNameName="nav-wrapper fixed-top">
-//                 <div classNameName="container">
-//                     <nav classNameName="navbar navbar-toggleable-sm navbar-expand-md">
-//                         <button classNameName="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-//                             ☰
-//                         </button>
-//                         <a classNameName="navbar-brand mx-auto" href="#top"><img src={logo}/></a>
-
-//                         <div classNameName="navbar-collapse collapse">
-//                             <ul classNameName="navbar-nav nav-justified w-100 nav-fill">
-
-//                                 <Navlink linkUrl ="#top"linkName="Mac"/>
-//                                 <Navlink linkUrl ="#top"linkName="iPhone"/>
-//                                 <Navlink linkUrl ="#top"linkName="iPad"/>
-//                                 <Navlink linkUrl ="#top"linkName="Watch"/>
-//                                 <Navlink linkUrl ="#top"linkName="TV"/>
-//                                 <Navlink linkUrl ="#top"linkName="Music"/>
-//                                 <Navlink linkUrl ="#top"linkName="Support"/>
-//                                 <Navlink linkUrl ="#top" Image = {<img src={search}/>}/>
-//                                 <Navlink linkUrl ="#top" Image = {<img src={cart}/>}/>
-                                
-                
-                             
-//                             </ul>
-//                         </div>
-//                     </nav>
-//                 </div>
-// 	        </div>
-//         );     
-//     }
-// }
- 
-// export default Navbar;
