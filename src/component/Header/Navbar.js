@@ -24,9 +24,6 @@ class Navbar extends Component {
                     <li className="nav-item">
                         <a href="index.html" aria-label="Vandy Link"> className="nav-link nav-link-Vandy"></a>
                     </li>
-                    <li className="nav-item">
-                        <a href="#" aria-label="Vandy Link"> className="nav-link nav-link-bag"></a>
-                    </li>
                    
                 </ul>
                 <ul className="nav-list nav-list-larger">
@@ -35,9 +32,6 @@ class Navbar extends Component {
                             placeholder="&#xF002; Search Vandy.io" 
                             style={{fontFamily:"Arial, FontAwesome"}} />
                       
-                    </li>
-                    <li className="nav-item nav-item-hidden">
-                        <a href="/" aria-label="Vandy Link" className="nav-link nav-link-Vandy"></a>
                     </li>
                     <li className="nav-item">
                         <a href="DevSecOps" aria-label="Vandy Link" className="nav-link">DevSecOps</a>
